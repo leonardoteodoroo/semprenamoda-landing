@@ -76,7 +76,9 @@ function App() {
                 src={heroImage}
                 alt="Modelo vestindo roupa elegante"
                 className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover hover:scale-105 transition-transform duration-500"
-                loading="lazy"
+                fetchpriority="high"
+                width="1200"
+                height="800"
               />
             </div>
           </div>
