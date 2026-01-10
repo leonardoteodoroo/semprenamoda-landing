@@ -25,7 +25,7 @@ export default defineConfig(({ mode }) => ({
       ? [
           viteCompression({
             algorithm: 'brotliCompress',
-            deleteOriginFile: true,
+            deleteOriginFile: false,
           }),
         ]
       : []),
